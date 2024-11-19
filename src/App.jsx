@@ -3,6 +3,7 @@ import SideNav from "./components/SideNav.jsx";
 import PokeCard from "./components/PokeCard.jsx";
 
 
+
 function App() {
 
 
