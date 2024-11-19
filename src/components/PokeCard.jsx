@@ -12,8 +12,8 @@ function PokeCard(props) {
 
     const imgList = Object.keys(sprites || {}).filter( val => {
         if(!sprites[val]) {return false}
-        if(['versions', 'other'].includes(val)) {return false}
-        return true
+        return !['versions', 'other'].includes(val);
+
     })
 
     useEffect(() => {
